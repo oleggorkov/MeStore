@@ -1,1 +1,1 @@
-# MeStore
+# MeStore - учебный проект.
