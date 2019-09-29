@@ -811,7 +811,6 @@ body {
 }
 
 .footer {
-    height: 767px;
     background-color: #ffffff;
     background-image: linear-gradient(to right, #f9236f 0%, #f92346 100%);
 }
@@ -819,6 +818,18 @@ body {
 .footer-flex {
     display: flex;
     padding-top: 81px;
+}
+
+.footer-flex-item:first-child {
+    width: 385px;
+}
+
+.fa-map-marker-alt {
+    margin-top: 7px;
+}
+
+.footer-flex-item:nth-child(2) {
+    width: 248px;
 }
 
 .footer-item-heading {
@@ -840,6 +851,20 @@ body {
     margin-left: 11px;
 }
 
+.footer-item-address-mail {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-left: 11px;
+}
+
+.footer-item-address-mail:hover {
+    color: #222222;
+    text-decoration: underline;
+}
+
 .footer-item-contact {
     display: flex;
 }
@@ -848,4 +873,136 @@ body {
     padding: 0;
 }
 
+.footer-item-phone {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fa-phone,
+.fa-envelope,
+.fa-map-marker-alt {
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 14.77px;
+    font-size: 14px;
+}
+
+.account-list {
+    list-style-type: none;
+    margin-top: 32px;
+}
+
+.account-list__link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.account-list-edit:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.account-list__link:hover {
+    color: #222222;
+}
+
+.footer-flex-item:nth-child(2) {
+    margin-left: 42px;
+    margin-right: 26px;
+}
+
+.footer-flex-item:nth-child(4) {
+    margin-left: 108px;
+}
+
+.footer-follow-item:first-child {
+    margin-right: 58px;
+}
+
+.footer-follow__link {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.footer-follow__link:hover {
+    color: #222222;
+}
+
+.footer-follow-item {
+    display: flex;
+}
+
+.footer-follow-flex {
+    display: flex;
+}
+
+.fa-google-plus-g,
+.fa-pinterest-p,
+.fa-vimeo-v,
+.fa-facebook-f,
+.fa-twitter,
+.fa-rss {
+    padding-top: 8px;
+    width: 26px;
+    height: 26px;
+    color: #ffffff;
+}
+
+.footer-item-heading-down {
+    margin-top: 55px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 19px;
+}
+
+.footer-item-address {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.fa-cc-amex,
+.fa-cc-mastercard,
+.fa-cc-discover,
+.fa-cc-diners-club,
+.fa-cc-visa,
+.fa-stripe {
+    padding: 0;
+    width: 48px;
+    height: 22px;
+    opacity: 0.6;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 21.56px;
+    letter-spacing: 1.57px;
+}
+
+.footer-list {
+    margin-top: 64px;
+    display: flex;
+    margin-left: 549px;
+    list-style-type: none;
+    padding-bottom: 170px;
+}
+
+.footer-list__link {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.footer-list__link:hover {
+    color: #222222;
+}
 
