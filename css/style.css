@@ -839,6 +839,10 @@ body {
     margin-bottom: 32px;
 }
 
+.footer-item-heading:last-child {
+    margin-bottom: 24px;
+}
+
 .footer-item-text {
     color: #ffffff;
     font-size: 15px;
